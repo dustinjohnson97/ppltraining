@@ -1,45 +1,136 @@
-<!-- copy the header and the footer form your personal site. -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contactus</title>
+    <title>Flight Training Mentor</title>
     <link rel="stylesheet" href="styles/contactus.css">
+    <link rel="shortcut icon" href="favicon.ico">
 </head>
-<body>
-    <header>
 
+<body>
+
+    <header>
+        <img class="logo-img" src="images/plane_1.png" alt="Flight Training Mentor Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="page2.html">Testimonials</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="site-plan.html">Site Plan</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
         <div id="feedback"></div>
         <h1>Contact Us</h1>
         <form action="#" method="post">
-        <ul>
-            <li>
-              <label for="name">Name:</label>
-              <input type="text" id="name" name="user_name"
-              value="Put your name here" />
-            </li>
-            <li>
-              <label for="mail">Email:</label>
-              <input type="email" id="mail" name="user_email" />
-            </li>
-            <li>
-              <label for="msg">Message:</label>
-              <textarea id="msg" name="user_message"></textarea>
-            </li>
-            <li class="button">
-                <button type="submit">Send message</button>
-              </li>
-          </ul>
+            <ul>
+                <li>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name" value="Put your name here">
+                </li>
+                <li>
+                    <label for="mail">Email:</label>
+                    <input type="email" id="mail" name="user_email">
+                </li>
+                <li>
+                    <label for="msg">Message:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                </li>
+                <li class="button">
+                    <button type="submit">Send message</button>
+                </li>
+            </ul>
         </form>
+
+        <div>
+            <p class="Contact-us-paragraph">At Flight Training Mentor, we're passionate about providing exceptional service and support to our customers. We understand that navigating through questions, concerns, or inquiries can sometimes be challenging, which is why we've made it our mission to make the process as seamless and straightforward as possible. Whether you're a curious aspiring pilot looking for answers to all your questions or a seasoned pilot who would love to help others achieve their dreams, we're here for you every step of the way. Our dedicated team is committed to ensuring that your experience with us is nothing short of exceptional. We value open communication and strive to foster strong relationships within our community. Your satisfaction is our top priority, and we go above and beyond to address your needs promptly and effectively. You can reach out to us by filling out the contact form provided above. Rest assured that your message will be received by a knowledgeable and friendly member of our team who is eager to assist you. So don't hesitate to reach out to us today!</p>
+        </div>
+
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 8</div>
+                <img src="images/plane_1.png" style="width:100%" alt="Slide 1">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 8</div>
+                <img src="images/Plane_1.jpg" style="width:100%" alt="Slide 2">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 8</div>
+                <img src="images/Utah_View.jpg" style="width:100%" alt="Slide 3">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 8</div>
+                <img src="images/Plane_3.jpg" style="width:100%" alt="Slide 4">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 8</div>
+                <img src="images/Display_1.jpg" style="width:100%" alt="Slide 5">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 8</div>
+                <img src="images/Display_2.jpg" style="width:100%" alt="Slide 6">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">7 / 8</div>
+                <img src="images/Clouds.jpg" style="width:100%" alt="Slide 7">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">8 / 8</div>
+                <img src="images/Plane_2.jpg" style="width:100%" alt="Slide 8">
+                <div class="text"></div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)" style="left: 0;">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+        </div>
+
     </main>
 
     <footer>
-
-    </footer> 
+        <div class="copyright">
+            <p>Flight Training Mentor &copy; 2024 - Dustin Johnson</p>
+            <a href="site-plan.html">Site Plan</a>
+        </div>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
 
     <script>
         // get the feedback div element so we can do something with it.
@@ -51,12 +142,45 @@
             // stop the form from doing the default action.
             e.preventDefault();
             // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
-            feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+            feedbackElement.innerHTML = 'Hello ' + formElement.user_name.value + '! Thank you for your message. We will get back with you as soon as possible!';
             // make the feedback element visible.
             feedbackElement.style.display = "block";
             // add a class to move everything down so our message doesn't cover it.
             document.body.classList.toggle('moveDown');
         });
+
+        // Add the slideshow functionality here
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1; }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 5000); // Change image every 5 seconds
+        }
+
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
     </script>
+
 </body>
+
 </html>
