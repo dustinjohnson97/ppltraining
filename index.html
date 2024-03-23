@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flight Training Mentor</title>
     <link rel="stylesheet" href="styles/index.css">
@@ -10,62 +11,79 @@
 </head>
 
 <body>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/logo.png" alt="Flight Training Mentor Logo">
+            </a>
+            <nav>
+                <a href="index.html">Home Page</a>
+                <a href="page2.html">Testimonials</a>
+                <a href="contactus.html">Contact Us</a>
+                <a href="site-plan.html">Site Plan</a>
+            </nav>
+        </header>
 
-    <header>
-        <img class="logo-img" src="images/plane_1.png" alt="Flight Training Mentor Logo">
-        <nav>
-            <ul>
-                <li><a href="index.html">Home Page</a></li>
-                <li><a href="page2.html">Testimonials</a></li>
-                <li><a href="contactus.html">Contact Us</a></li>
-                <li><a href="site-plan.html">Site Plan</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section class="Main-page-title">
-            <h1 class="Home-title">Flight Training Mentor</h1>
-            <h3 class="slogan">Fly High, Dream Big, Achieve More!</h3>
-            <img class="Main-img1" src="images/Plane_1.jpg" alt="Image of 3 Cessna 172 airplanes parked in front of sunset">
-        </section>
-        
-        <div class="Main-page-first-section">
-            <p class="about-homepage">Welcome to our vibrant and supportive community of seasoned aviation professionals and expert guides who are dedicated to steering you toward the achievement of your dream - obtaining a Private Pilot’s License! As you embark on your journey to becoming a proficient pilot, our home page stands as an invaluable resource, providing you with a gateway to acquiring a vast array of information tailored to empower aspiring aviators like yourself. As you pursue this journey, you will find a treasure trove of insights, tips, and guidance meticulously crafted to facilitate informed decision-making at every step of your flight training journey. Our mission is simple yet profound - to serve as your steadfast companion and trusted ally throughout the intricate and exhilarating process of obtaining your pilot’s license. Whether you're just taking your first steps into the world of aviation or are a seasoned enthusiast seeking to expand your horizons, our community is here to offer unwavering support and unparalleled expertise. No matter the question, we are committed to equipping you with the knowledge and resources necessary to soar to new heights of success. Our commitment to your success is unwavering, and we are dedicated to providing you with the tools and support you need to transform your dreams of flight into a tangible reality. We encourage you to peruse our testimonials page and success stories from individuals who have successfully acquired their private pilot licenses, sharing their gratitude for the invaluable guidance provided on this platform and expressing a wish that they had discovered it earlier in their aviation journey.</p>
-            <img class="Main-img2" src="images/Utah_View.jpg" alt="View of Utah mountains from aircraft window">
+        <div id="hero">
+            <div id="hero-box">
+                <img id="hero-img" src="images/Plane_3.jpg" alt="Image of multi engine aircraft">
+            </div>
+            <section id="home-msg">
+                <h1 class="home-title">Flight Training Mentor</h1>
+                <h4>Fly High, Dream Big, Achieve More!</h4>
+            </section>
         </div>
 
-        <div class="Main-page-second-section">
-            <p class="encourage-section">We encourage you to peruse our testimonials page and success stories from individuals who have successfully acquired their private pilot licenses, sharing their gratitude for the invaluable guidance provided on this platform and expressing a wish that they had discovered it earlier in their aviation journey.</p>
-            <img class="Main-img2" src="images/Plane_3.jpg" alt="Image of multi engine aircraft">
-            <ul>
-                <li><a href="page2.html">Testimonials</a></li>
-            </ul>
-        </div>
-    </main>
+        <main class="home-grid">
+            <article class="container">
+                <h2>Welcome to our dynamic community of experienced aviation mentors committed to guiding you towards your aviation aspirations</h2>
+                <img src="images/Utah_View.jpg" alt="View of Utah mountains from aircraft window">
+                <p>Discover our vibrant and supportive community of seasoned aviation
+                    professionals and expert guides who are dedicated to steering you toward the achievement of your
+                    dream - obtaining a Private Pilot’s License! As you embark on your journey to becoming a proficient
+                    pilot, our home page stands as an invaluable resource, providing you with a gateway to acquiring a
+                    vast array of information tailored to empower aspiring aviators like yourself.</p>
+                <p>As you pursue this
+                    journey, you will find a treasure trove of insights, tips, and guidance meticulously crafted to
+                    facilitate informed decision-making at every step of your flight training journey. Our mission is
+                    simple yet profound - to serve as your steadfast companion and trusted ally throughout the intricate
+                    and exhilarating process of obtaining your pilot’s license.</p>
+                <img src="images/Plane_1.jpg" alt="Image of 3 Cessna 172 airplanes parked in front of sunset">
+                <p>Whether you're just taking your first
+                    steps into the world of aviation or are a seasoned enthusiast seeking to expand your horizons, our
+                    community is here to offer unwavering support and unparalleled expertise. No matter the question, we
+                    are committed to equipping you with the knowledge and resources necessary to soar to new heights of
+                    success. Our commitment to your success is unwavering, and we are dedicated to providing you with
+                    the tools and support you need to transform your dreams of flight into a tangible reality.</p>
+                <p>We encourage you to peruse our testimonials page and success stories from individuals who have
+                    successfully acquired their private pilot licenses, sharing their gratitude for the invaluable
+                    guidance provided on this platform and expressing a wish that they had discovered it earlier in
+                    their aviation journey.</p>
 
-    <footer>
-        <div class="copyright">
+                <a class="join" href="page2.html">Testimonials</a>
+            </article>
+        </main>
+
+        <footer>
             <p>Flight Training Mentor &copy; 2024 - Dustin Johnson</p>
-            <a href="site-plan.html">Site Plan</a>
-        </div>
-        <div class="social">
-            <a href="https://facebook.com" target="_blank">
-                <img src="images/facebook.png" alt="fb icon">
-            </a>
-            <a href="https://twitter.com" target="_blank">
-                <img src="images/twitter.png" alt="twitter icon">
-            </a>
-            <a href="https://instagram.com" target="_blank">
-                <img src="images/instagram.png" alt="instagram icon">
-            </a>
-        </div>
-    </footer>
-    
+            <p><a href="site-plan.html">Site Plan</a></p>
+            <p><a href="contactus.html">Contact Us</a></p>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="Facebook Icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="Twitter Icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="Instagram Icon">
+                </a>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>
-
 
 
 <!-- Below you will find important notes from class -->
