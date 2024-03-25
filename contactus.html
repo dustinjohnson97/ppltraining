@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flight Training Mentor</title>
     <link rel="stylesheet" href="styles/contactus.css">
@@ -10,18 +11,18 @@
 </head>
 
 <body>
-
-    <header>
-        <img class="logo-img" src="images/plane_1.png" alt="Flight Training Mentor Logo">
-        <nav>
-            <ul>
-                <li><a href="index.html">Home Page</a></li>
-                <li><a href="page2.html">Testimonials</a></li>
-                <li><a href="contactus.html">Contact Us</a></li>
-                <li><a href="site-plan.html">Site Plan</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/logo.png" alt="Flight Training Mentor Logo">
+            </a>
+            <nav>
+                <a href="index.html">Home Page</a>
+                <a href="page2.html">Testimonials</a>
+                <a href="contactus.html">Contact Us</a>
+                <a href="site-plan.html">Site Plan</a>
+            </nav>
+        </header>
 
     <main>
         <div id="feedback"></div>
@@ -115,22 +116,22 @@
     </main>
 
     <footer>
-        <div class="copyright">
-            <p>Flight Training Mentor &copy; 2024 - Dustin Johnson</p>
-            <a href="site-plan.html">Site Plan</a>
-        </div>
+        <p>Flight Training Mentor &copy; 2024 - Dustin Johnson</p>
+        <p><a href="site-plan.html">Site Plan</a></p>
+        <p><a href="contactus.html">Contact Us</a></p>
         <div class="social">
             <a href="https://facebook.com" target="_blank">
-                <img src="images/facebook.png" alt="fb icon">
+                <img src="images/facebook.png" alt="Facebook Icon">
             </a>
             <a href="https://twitter.com" target="_blank">
-                <img src="images/twitter.png" alt="twitter icon">
+                <img src="images/twitter.png" alt="Twitter Icon">
             </a>
             <a href="https://instagram.com" target="_blank">
-                <img src="images/instagram.png" alt="instagram icon">
+                <img src="images/instagram.png" alt="Instagram Icon">
             </a>
         </div>
     </footer>
+</div>
 
     <script>
         // get the feedback div element so we can do something with it.
@@ -142,7 +143,7 @@
             // stop the form from doing the default action.
             e.preventDefault();
             // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
-            feedbackElement.innerHTML = 'Hello ' + formElement.user_name.value + '! Thank you for your message. We will get back with you as soon as possible!';
+            feedbackElement.innerHTML = 'Hello ' + formElement.user_name.value + '! Thank you for your message. A certified aviation professional will assist you as soon as possible!';
             // make the feedback element visible.
             feedbackElement.style.display = "block";
             // add a class to move everything down so our message doesn't cover it.
