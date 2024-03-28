@@ -21,7 +21,7 @@ body {
 header {
     display: grid;
     grid-template-columns: 150px auto;
-    background-color: rgba(13, 27, 42, 0.9);
+    background-color: rgba(13, 27, 42, 1.0);
 }
 nav a:hover {
     background-color: grey;
