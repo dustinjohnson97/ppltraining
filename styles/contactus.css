@@ -23,6 +23,7 @@ header {
     grid-template-columns: 150px auto;
     background-color: rgba(13, 27, 42, 0.9);
     z-index: 1;
+    margin-bottom: 50px;
 }
 nav a:hover {
     background-color: grey;
@@ -46,7 +47,7 @@ footer {
     background-color: #0D1B2A;
     color: white;
     padding: 25px 50px;
-    margin-top: 250px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -118,7 +119,7 @@ footer .social img {
 .home-grid {
     display: grid;
     /* padding: 1rem; */
-    grid-template-columns: 1000px 1fr;
+    /* grid-template-columns: 1000px 1fr; */
     gap: 1rem;
     align-items: center;
     max-width: 1000px;
@@ -152,23 +153,17 @@ h2 {
     text-align: center;
     margin-top: 50px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.left-align {
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* ########################################################################## */
+/* Contact Us box */
+/* ########################################################################## */
 #feedback {
   background-color: antiquewhite;
+  color: black;
   position: absolute;
   top: 0;
   left: 0;
@@ -204,7 +199,7 @@ form {
     /* Uniform size & alignment */
     display: inline-block;
     width: 90px;
-    text-align: right;
+    text-align: center;
   }
   
   input,
@@ -251,13 +246,9 @@ form {
   main h1 {
     margin-top: 0; /* Remove default margin */
   }
-
-
-
-
-  
-
-
+/* ############################################################################### */
+/* Slide Show  */
+/* ############################################################################### */
   * {box-sizing:border-box}
 
   /* Slideshow container */
@@ -338,7 +329,7 @@ form {
   /* Fading animation */
   .fade {
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: 3s;
   }
   
   @keyframes fade {
